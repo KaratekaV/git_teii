@@ -30,3 +30,9 @@ Ahora nos conectamos al repositorio:
 
 Ahora insertaremos los archivos añadidos anteriormente al repositorio de github:
 	- git push origin master
+
+Me he dado cuenta, que solo se ha subido del fichero de bitácora hasta que usé el git add. Por tanto, voy a actualizar el commit, para que solo haya 1, pero con este fichero actualizado. Para ello:
+	- git add Bitacora_Comandos.txt
+	- git commit -a -m "Bitácora con los comandos para actualizar el commit"
+	- git push origin master
+
