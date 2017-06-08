@@ -19,3 +19,14 @@ Además de esto, voy a crear un fichero README.txt, para tener mas de un archivo
 Para seguir con el repositorio, añadiré estos dos archivos al "buffer" de git, antes de realizar el commit. Esto lo haré con:
 	- git add README.txt
 	- git add Bitacora_Comandos.txt
+
+Ya que tengo estos archivos metidos en dicho buffer, ahora voy a realizar el commit, para guardarlo en el repositorio. 
+	- git commit -m "Primer commit - realizando pruebas en GIT"
+
+Ahora crearé el repositorio en GitHub, para poder verlo de forma gráfica y que sea mas sencillo el desarrollo de esta práctica. Si quiere tener mas información, consulte el PDF creado en LaTeX, donde se adjuntarán imagenes.
+
+Ahora nos conectamos al repositorio:
+	- git remote add origin https://github.com/karatekav/git_teii.git
+
+Ahora insertaremos los archivos añadidos anteriormente al repositorio de github:
+	- git push origin master
