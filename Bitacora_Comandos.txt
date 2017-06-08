@@ -1,0 +1,21 @@
+Fecha: 08/06/2017
+
+En esta bitácora, iré añadiendo poco a poco los comandos que he ido ejecutando, para completar la explicación a esta entrega.
+
+Para comenzar he instalado GIT en mi computador personal, con distribución de ubuntu 16.04, ejecutando:
+	- sudo apt-get install git
+
+He configurado el nombre de usuario y el email con los siguientes parametros:
+	- git config --global user.name "karatekav"
+	- git config --global user.email "vicentejavier.vidal@um.es"
+
+A continuación, he creado un repositorio local de GIT, que más tarde actualizaré en el repositorio de GitHub. Este repositorio se denomina: "git_teii". Para ello, he ejecutado:
+	- git init git_teii/
+
+Para comenzar con este repositorio, voy a mover el archivo que estoy modificando ahora mismo, y modificaré conforme se desarrolle esta práctica, dentro del directorio que será mi repositorio.
+
+Además de esto, voy a crear un fichero README.txt, para tener mas de un archivo en el repositorio.
+
+Para seguir con el repositorio, añadiré estos dos archivos al "buffer" de git, antes de realizar el commit. Esto lo haré con:
+	- git add README.txt
+	- git add Bitacora_Comandos.txt
