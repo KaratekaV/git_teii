@@ -1,8 +1,0 @@
-Hemos creado esta rama con:
-	- git checkout -b bibliografia
-
-En este documento, guardaré las URL en las que me he basado para usar todo lo necesario en esta práctica.
-Mas tarde, usaré este archivo para incluirlo en LaTeX.
-
-https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
-http://rogerdudler.github.io/git-guide/index.es.html
